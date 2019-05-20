@@ -1,6 +1,7 @@
 # High dimensional Bayesian Optimization with Deep Partitioning Tree (DPT-BO)
 
 Copyright (c) 2019 Hakki M. Torun
+
 3D Packaging Research Center
 School of Electrical and Computer Engineering
 Georgia Institute of Technology
