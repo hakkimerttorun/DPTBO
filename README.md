@@ -1,9 +1,9 @@
 # High dimensional Bayesian Optimization with Deep Partitioning Tree (DPT-BO)
 
-Copyright (c) 2019 Hakki M. Torun\n
-3D Packaging Research Center
-School of Electrical and Computer Engineering
-Georgia Institute of Technology
+Copyright (c) 2019 Hakki M. Torun <br />
+3D Packaging Research Center <br />
+School of Electrical and Computer Engineering <br />
+Georgia Institute of Technology <br />
 
 The Matlab code associated with the paper "High Dimensional Global Optimization Method for High-Frequency Electronic Design". 
 
