@@ -15,8 +15,8 @@ This work is funded in part by the DARPA CHIPS project under award N00014-17-1-2
 
 For questions, queries and bug reports, please feel free to contact: htorun3@gatech.edu
 
-# Examples:
+## Examples:
 "DPTBO_main.m" function provides example usage of the method to maximize a black-box function. Please refer to the comment therein for details of the usage of the code. The actual implementation of the algorithm is "DPTBO.m" function.
 
-# System Requirements:
+## System Requirements:
 The code is tested using Matlab R2018b and R2019a. 
