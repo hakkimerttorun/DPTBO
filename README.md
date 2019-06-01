@@ -5,7 +5,7 @@ Copyright (c) 2019 Hakki M. Torun <br />
 School of Electrical and Computer Engineering <br />
 Georgia Institute of Technology <br />
 
-The Matlab code associated with the paper "High Dimensional Global Optimization Method for High-Frequency Electronic Design". 
+The Matlab code associated with the paper ["High Dimensional Global Optimization Method for High-Frequency Electronic Design"](https://ieeexplore.ieee.org/document/8727492). 
 
 We propose a new high-dimensional Bayesian optimization (BO) method, Bayesian Optimization with Deep Partitioning Tree (DPT-BO), which uses an additive Gaussian Process (GP) to approximate the high-dimensional objective function. The additive structure we use preserve interaction between every parameter to capture various classes of functions that can be modelled. This makes the DPT-BO method particularly applicable to high-frequency electronic design problems since such interactions start to  
 
