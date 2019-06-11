@@ -40,10 +40,10 @@ Michalewicz = @(value) -1*michal(value,10);
 % optimization) and 3rd group contain the least effective 5 parameters
 
 % f = Hart6; dimension=6; sample_space = [0 1; 0 1; 0 1; 0 1; 0 1; 0 1]; group_length = [3,3];
-f = qinq; dimension=25; sample_space = ones(dimension,2).*[0,10]; group_length = [5,5,5,5,5];
+% f = qinq; dimension=25; sample_space = ones(dimension,2).*[0,10]; group_length = [5,5,5,5,5];
 % f = Levy; dimension=15; sample_space = ones(dimension,2).*[-15 1]; group_length = [5, 5, 5];
 % f = Schwef; dimension=10; sample_space = ones(dimension,2).*[300 500]; group_length = [5,5];
-% f = Michalewicz; dimension = 10; sample_space = ones(dimension,2).*[0 pi]; optima = -9.66015; group_length = [7,3];
+f = Michalewicz; dimension = 10; sample_space = ones(dimension,2).*[0 pi]; group_length = [7,3];
 %%
 %% Settings
 % !!!HYPERPARAMETER UPDATE SCHEDULING!!!
@@ -57,6 +57,8 @@ settings.hyperUpdateTime = 1:1:settings.count_max;
 % settings.hyperUpdateTime = [1,2,3,4,5,floor(logspace(1,5))];
 
 %RANDOM STREAM FOR REPRODUCIBILITY
+%This shouldn't change the optimization. Only randomness is for
+%hyperparameter optimization.
 settings.random_stream = 0; %set to 1 to fix random stream. Set to "0" in general.
 
 

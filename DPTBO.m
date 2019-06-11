@@ -120,7 +120,7 @@ covdd = {'covADD',{1:R,maternU}};
 covfunc = {'covSum',{matern,covdd}};
 
 nCov = eval(feval(covfunc{:}))-D;
-
+%Initialize hyperparameters. It can be if needed for specific application.
 hyp.mean = 0;
 hyp.lik = -3;
 input_spread = (sample_space(:,2)-sample_space(:,1))./sqrt(12);

@@ -19,4 +19,4 @@ For questions, queries and bug reports, please feel free to contact: htorun3@gat
 "DPTBO_main.m" function provides example usage of the method to maximize a black-box function. Please refer to the comment therein for details of the usage of the code. The actual implementation of the algorithm is "DPTBO.m" function.
 
 ## System Requirements:
-The code is tested using Matlab R2018b and R2019a. 
+The code is tested using Matlab R2018b and R2019a, and has dependency to "Statistics and Machine Learning Toolbox". If you don't have the required toolbox, please change the hyperparameter optimization procedure in line 170 of "DPTBO.m" with gradient descent based optimizer of your own choosing.
